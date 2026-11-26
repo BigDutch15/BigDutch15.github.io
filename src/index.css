@@ -41,6 +41,12 @@ h1 {
   color: var(--muted);
 }
 
+.about {
+  max-width: 560px;
+  margin: 0 auto 2rem;
+  text-align: left;
+}
+
 .links {
   list-style: none;
   padding: 0;
