@@ -6,9 +6,7 @@ const profile = {
     'I build front ends with Vue, React, Next.js, and Angular, and back ends in C#. I manage the infrastructure behind them with Terraform, CI/CD pipelines, Docker, and Kubernetes. Outside of work I run a homelab on Proxmox and OpenWRT, where I try out new tools and setups. I also work with Claude Code and run open-source models locally with Ollama. This site is my home base, and my GitHub has the code behind my projects.',
 }
 
-const links = [
-  { label: 'GitHub', href: 'https://github.com/BigDutch15' },
-]
+const links = [{ label: 'GitHub', href: 'https://github.com/BigDutch15' }]
 
 export default function App() {
   return (

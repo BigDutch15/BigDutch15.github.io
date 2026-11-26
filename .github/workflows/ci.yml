@@ -15,5 +15,6 @@ jobs:
       - uses: volta-cli/action@v5
       - run: volta install node@22.23.5 pnpm@9.15.0
       - run: pnpm install --frozen-lockfile
+      - run: pnpm run format:check
       - run: pnpm run lint
       - run: pnpm run build
