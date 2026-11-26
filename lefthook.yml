@@ -1,0 +1,10 @@
+pre-commit:
+  parallel: true
+  commands:
+    format:
+      glob: "*.{js,jsx,json,css,html}"
+      run: pnpm exec biome format --write {staged_files}
+      stage_fixed: true
+    lint:
+      glob: "*.{js,jsx}"
+      run: pnpm exec eslint {staged_files}
